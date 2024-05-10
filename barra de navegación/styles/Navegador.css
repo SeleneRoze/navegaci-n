@@ -1,0 +1,72 @@
+
+
+      * {
+          padding: 0%;
+          margin: 0%;
+      }
+      #header{
+          margin: center;
+          width: 250px;
+          color-scheme: #caacde;
+          
+      }
+      ul, ol{
+          list-style: none;
+      }
+      .nav li a {
+        color:rgb(101, 11, 153);  
+        background-color: #CAACDE;
+        text-emphasis-color: white;
+        font-family: "Poppins",sans-serif; 
+      }
+      .nav{ color: #0c0c0c; background-color: #CAACDE;
+
+}
+#menu{
+    border: 10px solid #CAACDE;
+    background-color: #caacde1e; alt:"hamburguesa"; 
+
+
+}
+
+
+    
+#user{border: 10px solid #CAACDE;
+    background-color: #caacde; alt:"user"; 
+    margin-left: 120px; position: absolute; top: 0px; right: 180px;
+}
+
+#Carrito{ border: 10px solid #CAACDE;
+    background-color: #caacde; alt:"carrito"; 
+    margin-left: 50px; position: absolute; top: 08px; left:25px;
+}
+      .nav li a:hover {
+          background-color: rgb(200, 255, 247), 243, 220;
+          color: #F3DCEB;
+          font-family: "Poppins",sans-serif;
+          padding: 10px 15px;
+          display: block;
+      }
+      .nav > li {
+          float:left;
+      }
+      .nav li ul {
+          display:none;
+          position: absolute;
+          min-width: 160px;
+      }
+      .nav li:hover > ul {
+          display: block;
+      }
+
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+   
+    
+    
+
+      
